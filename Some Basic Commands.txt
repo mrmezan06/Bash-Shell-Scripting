@@ -1,0 +1,29 @@
+uname #OS name
+uname #OS Full details of os
+env #see all environment variables
+env -u Name_of_Variable #Unset env variable
+env Name_of_Variable=Value_of_Variable #Set env variable
+export env Name_of_Variable=Value_of_Variable #Export the env variable for use
+unset #Export variable unset
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/bin" #Setting LD_LIBRARY_PATH
+export PATH=$PATH:/myshell #add path in env but in new shell it is not exists
+
+#Some Commands
+ls #File and Folder List
+ls -l #Long details
+ls -la #details with hidden file
+ls -lia #i stands for inode
+ls -lrt #reverse sort by time
+ls -lhrt #h=human r=readable t=based on time
+ls -lh #h=human readable like kb or mb or gb
+#Dummy file creating
+while :
+> do
+> echo "Baby\n" >> sample.txt
+> done
+
+pressing ctrl+C complete because of infinite loop
+
+#Delete folder with rm
+rm -fr folder_name #f=force r=recursive
+
