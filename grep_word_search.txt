@@ -1,0 +1,1 @@
+grep "word_name" <file_name.extension or directory/file_name.extension>
